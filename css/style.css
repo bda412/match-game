@@ -28,8 +28,16 @@ body {
     border-radius: 8px;
     padding: 0;
     box-sizing: border-box;
-    background-color: #8d8a8a;
+    background-image: url(../img/chama.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border: 5px solid #dbebea;
+    color: transparent;
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 .card img {
